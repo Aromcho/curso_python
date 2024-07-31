@@ -15,6 +15,8 @@
             <form id="registerForm" class="form">
                 <input type="text" id="registerUsername" placeholder="Nombre de Usuario" required>
                 <input type="password" id="registerPassword" placeholder="Contraseña" required>
+                <input type="email" id="registerEmail" placeholder="Correo Electrónico" required>
+                <input type="number" id="registerEdad" placeholder="Edad" required>
                 <button type="submit">Registrar</button>
             </form>
             <div id="registerMessage" class="message"></div>
@@ -34,6 +36,23 @@
             <h2>Usuarios Registrados</h2>
             <button id="showUsers">Mostrar Usuarios</button>
             <div id="userList" class="user-list"></div>
+        </div>
+        
+        <div class="form-container">
+            <h2>Agregar Compra</h2>
+            <form id="compraForm" class="form">
+                <input type="text" id="compraUsername" placeholder="Nombre de Usuario" required>
+                <input type="text" id="compraProducto" placeholder="Producto" required>
+                <button type="submit">Agregar Compra</button>
+            </form>
+            <div id="compraMessage" class="message"></div>
+        </div>
+
+        <div class="form-container">
+            <h2>Mostrar Compras</h2>
+            <input type="text" id="showComprasUsername" placeholder="Nombre de Usuario" required>
+            <button id="showCompras">Mostrar Compras</button>
+            <div id="compraList" class="user-list"></div>
         </div>
     </div>
 
