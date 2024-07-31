@@ -1,0 +1,14 @@
+README.md
+setup.py
+cliente_app/__init__.py
+cliente_app/app.py
+cliente_app.egg-info/PKG-INFO
+cliente_app.egg-info/SOURCES.txt
+cliente_app.egg-info/dependency_links.txt
+cliente_app.egg-info/entry_points.txt
+cliente_app.egg-info/requires.txt
+cliente_app.egg-info/top_level.txt
+cliente_app/api/__init__.py
+cliente_app/api/routes.py
+cliente_app/models/__init__.py
+cliente_app/models/cliente.py
